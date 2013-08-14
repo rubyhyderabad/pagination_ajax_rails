@@ -1,0 +1,9 @@
+
+<div id="posts">
+  <%= render "posts/posts" %>
+</div>
+<script>
+    $(function(){
+        $('.pagination a').attr('data-remote', 'true')
+    });
+</script>
